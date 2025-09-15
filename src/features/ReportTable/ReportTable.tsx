@@ -3,7 +3,7 @@ import { useVirtualizer } from '@tanstack/react-virtual';
 import { Loader } from '@mantine/core';
 import { type ColumnDef } from '@tanstack/react-table';
 import { useRef, type FC } from 'react';
-import { type ReportItem } from '../../api/postReport';
+import type { ReportItem } from '../../api/types';
 import { CustomTable } from '../../components/Table/CustomTable';
 import { calculateHoursDuration } from '../../utils/calculateHoursDuration';
 

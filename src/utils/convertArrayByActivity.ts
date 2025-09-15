@@ -1,4 +1,4 @@
-import type { ReportItem } from '../api/postReport';
+import type { ReportItem } from '../api/types';
 import { calculateHoursDuration } from './calculateHoursDuration';
 
 interface ActivityDetails {

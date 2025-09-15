@@ -1,5 +1,5 @@
 import { createContext, useContext } from 'react';
-import type { ReportItem } from './api/postReport';
+import type { ReportItem } from './api/types';
 
 interface AppContextType {
     isLoading: boolean;
