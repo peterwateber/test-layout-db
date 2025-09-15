@@ -1,6 +1,6 @@
 # Intro
 
-A simple reporting dashboard built with **React**, **Redux Toolkit Query**, **Mantine**, and **@tanstack/react-virtual**.  
+A simple reporting dashboard built with **React**, **Redux Toolkit**, **@tanstack/react-query**, **@tanstack/react-virtual** and **Mantine**.  
 The app demonstrates filtering, data fetching, virtualization, and chart visualizations.
 
 ## 🚀 How to Run
@@ -63,9 +63,9 @@ The app demonstrates filtering, data fetching, virtualization, and chart visuali
 - **Feature upgrades**  
   Instead of adding more visualizations, I would focus on upgrading existing features.  
   For example, the current bar chart could be updated to support **calendar-based views** (weekly or monthly aggregations), similar to how the existing system presents its reports.  
-  I would also update the table to **allow sorting per column** and most probably use Ag-Grid or Ignte UI.  
+  I;d also update the table to **allow sorting per column** and most probably use Ag-Grid or Ignte UI.  
   In addition, users could **create, update, and delete time entries**, making the dashboard not only a reporting tool but also an interactive time management system.  
-  Finally, I would add the ability to **export reports as CSV**, similar to the existing system.
+  Finally, I would add the ability to **export reports as CSV/XLSXX/PDF**, similar to the existing system.
 
 - **User engagement improvements**  
   Leverage the data returned from `/api/v4/report` to create more meaningful engagement.  
