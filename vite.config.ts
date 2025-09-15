@@ -12,7 +12,7 @@ export default defineConfig(() => {
             proxy: {
                 '/proxy': {
                     target: 'https://api-testing.early.app/',
-                    rewrite: (path) => path.replace(/\/proxy/, ''),
+                    rewrite: (path) => path.replace(/^\/proxy/, ''),
                     changeOrigin: true,
                     secure: false,
                     configure: (proxy) => {
