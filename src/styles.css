@@ -1,0 +1,88 @@
+@import 'tailwindcss';
+
+:root {
+    --bg: #f5f7fb;
+    --card: #fff;
+    --muted: #6b7280;
+}
+body {
+    font-family: Inter, system-ui, Arial;
+    margin: 0;
+    background: var(--bg);
+    color: #111;
+    min-height: 100vh;
+    padding: 0;
+}
+.app {
+    min-width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+.date-range {
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+}
+.charts {
+    margin: 16px 0;
+}
+
+/* Sticky Header Table */
+/* This wrapper is crucial. It gives us a reference point. */
+.tableWrapper {
+    /* Add some space to allow scrolling */
+    padding-top: 100px;
+    margin-top: 200px;
+}
+
+.fixedHeader {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    /* Use CSS variables if available, or a fixed width */
+    width: var(--mantine-table-width, 100%);
+    background-color: var(--mantine-color-body);
+    box-shadow: var(--mantine-shadow-sm);
+}
+
+/** STATS **/
+.progressLabel {
+    font-family: Outfit, var(--mantine-font-family);
+    line-height: 1;
+    font-size: var(--mantine-font-size-sm);
+}
+
+.stat {
+    border-bottom: 3px solid;
+    padding-bottom: 5px;
+}
+
+.statCount {
+    font-family: Outfit, var(--mantine-font-family);
+    line-height: 1.3;
+}
+
+.diff {
+    font-family: Outfit, var(--mantine-font-family);
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    color: light-dark(var(--mantine-color-gray-4), var(--mantine-color-dark-3));
+}
