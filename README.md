@@ -1,4 +1,4 @@
-# Reporting Dashboard
+# Intro
 
 A simple reporting dashboard built with **React**, **Redux Toolkit Query**, **Mantine**, and **@tanstack/react-virtual**.  
 The app demonstrates filtering, data fetching, virtualization, and chart visualizations.
